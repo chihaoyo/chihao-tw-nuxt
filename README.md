@@ -2,21 +2,10 @@
 
 > chihao.tw with nuxt.js
 
-## Build Setup
+## Projects
+[WIP]
 
-``` bash
-# install dependencies
-$ npm run install
+## Reports
 
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+### [hk-823](https://chihao.tw/r/hk-823)
+- [Data set](https://docs.google.com/spreadsheets/d/1AvYD_sAa70DxjDu7bhMXvhKPpd4R-3L3gJKEBPU4PWE/edit#gid=0)
