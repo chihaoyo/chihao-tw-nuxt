@@ -1,3 +1,5 @@
+import defaultCoverImage from '~/assets/images/chihao.tw-cover.png'
+
 export const PUNCT = {
   IDEOSPACE: '　',
   COMMA: '，',
@@ -25,7 +27,7 @@ export const PUNCT = {
   }
 }
 
-export function generateMeta(pageTitle, pageDescription, image) {
+export function generateMeta(pageTitle, pageDescription, image = defaultCoverImage) {
   return [
     {
       hid: 'description',

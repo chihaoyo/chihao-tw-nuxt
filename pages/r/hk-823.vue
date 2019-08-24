@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import * as util from 'assets/scripts/util'
-import logo from '~/assets/images/hongkong-823-logo.png'
-import coverImage from '~/assets/images/hongkong-823-cover.png'
+import { PUNCT, generateMeta } from 'assets/scripts/util'
+import logo from '~/assets/images/hk-823-logo.png'
+import coverImage from '~/assets/images/hk-823-cover.png'
 import images from '~/data/2019-08-23-hk.json'
 
 const textMap = {
@@ -30,7 +30,7 @@ const textMap = {
 export default {
   data() {
     return {
-      PUNCT: util.PUNCT,
+      PUNCT,
       logo,
       coverImage,
       images
@@ -41,12 +41,8 @@ export default {
     const pageDescription = textMap.description
     return {
       title: pageTitle,
-      meta: util.generateMeta(pageTitle, pageDescription, coverImage)
+      meta: generateMeta(pageTitle, pageDescription, coverImage)
     }
-  },
-  mounted() {
-    let $container = this.$refs.container
-    console.log($container)
   }
 }
 </script>
