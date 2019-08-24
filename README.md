@@ -1,6 +1,6 @@
-# chihao-tw-nuxt
+# chihao.tw
 
-> chihao.tw with nuxt.js
+> Built with nuxt.js
 
 ## Projects
 [WIP]
