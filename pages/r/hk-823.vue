@@ -4,7 +4,7 @@
     <div class="scroll">
       <div class="image" v-for="(image, imageIndex) of images" :key="imageIndex">
         <img :src="image.reference" />
-        <a class="source a-block font-size-tiny"><span class="a-target">{{ image.photographer }}{{ image.photographer && image.publisher ? PUNCT.SLASH : '' }}{{ image.publisher }}</span></a>
+        <a class="source a-block font-size-tiny" :href="image.source" target="_blank"><span class="a-target">{{ image.photographer }}{{ image.photographer && image.publisher ? PUNCT.SLASH : '' }}{{ image.publisher }}</span></a>
       </div>
     </div>
   </div>
