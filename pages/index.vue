@@ -4,14 +4,24 @@
     <img class="icon" src="/chihao.tw-favicon.png" />
     <h1 class="title">chihao.tw</h1>
   </nav>
-  <iframe src="https://docs.google.com/document/d/e/2PACX-1vSiKEisXtYMEjXnT95sUX9DsI0ixA4vea6EHDKeFJpg9gL7V6YzuSybmhmdRarqMNsr07_UznSgWf01/pub"></iframe>
+  <div class="gdoc" v-html="gdoc"></div>
 </div>
 </template>
 
 <script>
-import { generateMeta } from 'assets/scripts/util'
+import { getDoc } from '~/lib/gdoc'
+import { generateMeta } from '~/assets/scripts/util'
+
+const gDocPublicURL = 'https://docs.google.com/document/d/e/2PACX-1vSiKEisXtYMEjXnT95sUX9DsI0ixA4vea6EHDKeFJpg9gL7V6YzuSybmhmdRarqMNsr07_UznSgWf01/pub'
 
 export default {
+  async asyncData() {
+    let gdoc = await getDoc(gDocPublicURL)
+    return {
+      gDocPublicURL,
+      gdoc
+    }
+  },
   head() {
     const pageTitle = 'chihao.tw'
     const pageDescription = 'chihao.tw'
@@ -40,13 +50,6 @@ export default {
       margin: 0 0.5rem;
       padding: 0;
     }
-  }
-  > iframe {
-    width: 100%;
-    height: calc(100vh - #{$nav-height});
-    margin: 0;
-    border: 0;
-    padding: 0;
   }
 }
 </style>

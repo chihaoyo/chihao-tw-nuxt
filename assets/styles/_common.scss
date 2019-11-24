@@ -14,7 +14,6 @@ label {
 // Anchor
 
 a, a:hover, a:focus, a:active, a:visited {
-  color: inherit;
   text-decoration: none;
   line-height: $line-height-tight; // TODO: is this ok?
   cursor: pointer;
@@ -120,4 +119,13 @@ a.a-inline-block {
     padding-right: $length;
     padding-left: $length;
   }
+}
+
+// gdoc
+
+.c0 {
+}
+div#header,
+div#footer {
+  display: none;
 }
