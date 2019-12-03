@@ -1,10 +1,25 @@
 <template>
-<div>
+<main>
+  <nav-bar />
   <nuxt />
-</div>
+</main>
 </template>
+
+<script>
+import NavBar from '~/components/NavBar'
+
+export default {
+  components: {
+    NavBar
+  }
+}
+</script>
 
 <style lang="scss">
 @import '~assets/styles/common';
+
+main {
+  position: relative;
+}
 
 </style>
