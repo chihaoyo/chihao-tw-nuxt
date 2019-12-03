@@ -34,8 +34,5 @@ export default {
   },
   server: {
     port: 8964
-  },
-  generate: {
-    dir: 'docs'
   }
 }
