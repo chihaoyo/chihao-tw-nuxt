@@ -8,7 +8,8 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/chihao.tw-favicon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: '/chihao.tw-favicon.png' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700,700i&display=swap' }
     ]
   },
   loading: { color: '#fff' },
