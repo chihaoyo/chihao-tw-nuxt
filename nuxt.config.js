@@ -12,7 +12,10 @@ export default {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=IBM+Plex+Serif:400,400i,700,700i&display=swap' }
     ]
   },
-  loading: { color: '#fff' },
+  loading: {
+    height: '4px',
+    color: '#fff'
+  },
   css: [],
   plugins: [],
   buildModules: [

@@ -1,6 +1,6 @@
 <template>
 <div class="nav">
-  <img class="icon" src="/chihao.tw-favicon.png" />
+  <nuxt-link class="link home" :to="{ path: '/' }"><img class="icon" src="/chihao.tw-favicon.png" /></nuxt-link>
 </div>
 </template>
 
@@ -13,9 +13,13 @@
   right: 0;
   display: flex;
   align-items: center;
-  > .icon {
-    display: block;
-    height: $nav-height;
+  > .link {
+    &.home {
+      > .icon {
+        display: block;
+        height: $nav-height;
+      }
+    }
   }
 }
 </style>
