@@ -16,5 +16,6 @@ export default {
   background-color: #f0f0f0;
   border-radius: 0.25rem;
   box-shadow: 0 8px 48px 0 rgba(black, .25);
+  overflow-x: hidden; // FIXME: temporary fix to prevent horizontal scrolling
 }
 </style>
