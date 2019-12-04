@@ -1,5 +1,5 @@
 <template>
-<div class="page index">
+<div class="page project">
   <google-doc :gdoc="gdoc" />
 </div>
 </template>
@@ -36,8 +36,7 @@ export default {
 <style lang="scss">
 @import '~assets/styles/resources';
 
-.page.index {
-  padding: 2rem 0;
-  background-color: #aaa;
+.page.project {
+  padding: $default-page-padding;
 }
 </style>

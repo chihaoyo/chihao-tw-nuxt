@@ -37,7 +37,6 @@ export default {
 @import '~assets/styles/resources';
 
 .page.index {
-  padding: 2rem 0;
-  background-color: #aaa;
+  padding: $default-page-padding;
 }
 </style>

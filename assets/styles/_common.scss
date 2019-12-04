@@ -11,6 +11,10 @@ label {
 
 @import '~assets/styles/resources';
 
+html, body {
+  background-color: $color-default-background-color;
+}
+
 // Anchor
 
 a, a:hover, a:focus, a:active, a:visited {

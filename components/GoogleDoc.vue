@@ -9,6 +9,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '~assets/styles/resources';
+
 .google-doc {
   max-width: 36rem;
   margin: 0 auto;

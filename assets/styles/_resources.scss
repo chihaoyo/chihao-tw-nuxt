@@ -21,7 +21,7 @@ $line-height-relaxed: 1.75;
 }
 
 // Colors
-
+$color-default-background-color: #AAA;
 $color-anchor-underline-default: #FFF640;
 $color-shadow: rgba(black, 0.25);
 $color-secondary-text-grey: #707070;
@@ -44,6 +44,14 @@ $unit-lengths: (
   quad: 4rem
 );
 
+// Z
+
+$z-nav: 1001;
+
 // Nav
 
 $nav-height: 46px;
+
+// Page
+
+$default-page-padding: 2rem 0 4rem;
