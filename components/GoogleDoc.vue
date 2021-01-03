@@ -1,5 +1,5 @@
 <template>
-<div class="google-doc" v-html="gdoc"></div>
+<div class="google-doc a-text-parent" v-html="gdoc"></div>
 </template>
 
 <script>
@@ -14,7 +14,7 @@ export default {
 .google-doc {
   max-width: 36rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #f0f0f0;
   border-radius: 0.25rem;
   box-shadow: 0 8px 48px 0 rgba(black, .25);
@@ -22,6 +22,17 @@ export default {
 
   .gdoc-image-container {
     overflow-x: scroll;
+  }
+
+  > #header,
+  > #footer { // FIXME: temp hack
+    display: none;
+  }
+  > #contents > div { // FIXME: temp hack removing root content el styles
+    background: none;
+    max-width: unset;
+    margin: 0;
+    padding: 0;
   }
 }
 </style>

@@ -22,6 +22,9 @@ a, a:hover, a:focus, a:active, a:visited {
   line-height: $line-height-tight; // TODO: is this ok?
   cursor: pointer;
 }
+a, a[class^=c] {
+  color: $color-anchor-default;
+}
 a.a-text,
 .a-text-parent a {
   display: inline;
