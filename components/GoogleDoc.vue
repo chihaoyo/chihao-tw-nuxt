@@ -24,6 +24,7 @@ export default {
     overflow-x: scroll;
   }
 
+  > #banners,
   > #header,
   > #footer { // FIXME: temp hack
     display: none;
