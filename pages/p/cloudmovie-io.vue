@@ -13,7 +13,7 @@ const gDocPublicURL = 'https://docs.google.com/document/d/e/2PACX-1vSU7iQVGa5dNF
 
 export default {
   async asyncData() {
-    let gdoc = await getDoc(gDocPublicURL)
+    const gdoc = await getDoc(gDocPublicURL)
     return {
       gDocPublicURL,
       gdoc
