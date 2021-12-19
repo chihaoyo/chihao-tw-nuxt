@@ -23,7 +23,7 @@ a, a[class^=c] {
 a.a-text,
 .a-text-parent a {
   display: inline;
-  @include underline($color-anchor-underline-default, 0.65);
+  @include underline($color-anchor-underline-default, 1.0);
 
   &:hover, &:focus, &:active {
     @include underline($color-anchor-underline-default, 1.0);
