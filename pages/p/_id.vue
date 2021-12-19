@@ -5,17 +5,16 @@
 </template>
 
 <script>
+import projects from '~/data/projects'
 import { getDoc } from '~/lib/gdoc'
 import { generateMeta } from '~/assets/scripts/util'
 import GoogleDoc from '~/components/GoogleDoc'
 
-const gDocPublicURL = 'https://docs.google.com/document/d/e/2PACX-1vRsgcV9F8jHIMszYhp6gTEj43YQ0tNNylWodCrJj6EgizoA7rVTIbbjsBbrT8a-dvpCOWennQLsiiPH/pub'
-
 export default {
-  async asyncData() {
-    const gdoc = await getDoc(gDocPublicURL)
+  async asyncData({ params }) {
+    const project = projects[params.id]
+    const gdoc = await getDoc(project.doc)
     return {
-      gDocPublicURL,
       gdoc
     }
   },
