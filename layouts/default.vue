@@ -21,5 +21,4 @@ export default {
 main {
   position: relative;
 }
-
 </style>
