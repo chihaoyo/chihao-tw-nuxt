@@ -7,6 +7,8 @@ label {
 @import '~assets/styles/resources';
 
 html, body {
+  margin: 0;
+  padding: 0;
   background-color: $color-default-background-color;
 }
 
