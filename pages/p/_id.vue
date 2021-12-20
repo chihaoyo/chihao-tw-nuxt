@@ -11,8 +11,12 @@ import { generateMeta } from '~/assets/scripts/util'
 import GoogleDoc from '~/components/GoogleDoc'
 
 export default {
-  async asyncData({ params }) {
+  async asyncData({ params, error }) {
     const project = projects[params.id]
+    if(!project) {
+      error({ statusCode: 404, message: 'Project not found' })
+      return
+    }
     const gdoc = await getDoc(project.doc)
     return {
       gdoc
