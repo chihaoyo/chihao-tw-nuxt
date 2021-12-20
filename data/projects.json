@@ -1,20 +1,38 @@
 {
+  "pang": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vShv0yCn46KGiRrC7Q5wgaDpJoDhECTqE-MKwS6leDRzx8B23SAdVqUBWpZPkKLTAnno9fIL30-RN3j/pub"
+  },
   "g0v-prix-2018": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vS9NClFM9mWjqPGk6gkdQeI3tM_fPwClipdRg4-LceLzkGZDaHGPutYGmy2qd_DfFR8kMV-aEID9TLX/pub"
   },
-  "cloudmovie-io": {
+  "cloudmovie": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vSU7iQVGa5dNFN6Da7Insm45lZgACWLwM2RH_3GHlKYXG55_kEtajzS9T8ixG5zUT9to6JJudFnGgn2/pub"
+  },
+  "watchout-commons": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vTBlVuTJVjbe8nxqJW1elUecwst042fBkxOij6FYo380tc3dLIJRoQl2TGYalQEZoAlMv_OycgjjzRM/pub"
+  },
+  "dzfd": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vSlG7mwJzDiVBnkHSBY_AEaF6FZd5vUG0CWIfVKuSNDfKGNo1qozCiFFvIdjl5p_6l9p_hEd5EoGc7u/pub"
+  },
+  "martial-law": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vQRKEz2RLlZrWqayoYTlqane1U50qyJDd0iR6fyX8bdThX1yhzBSh1OH84Ic0Ld89op_QFNbS-NKKds/pub"
   },
   "north-north": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vT7IMNZSrR8kUP1ZQ2YhzMdosaDFBJJuHOP5jxD99t34MfufofsxkiXF6JAzRMmFMzt6RYMUoEnjEzU/pub"
   },
-  "g0v-news-id": {
+  "g0v-news": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vTZirGYfqLdLgw3YvHGzSigq_7XUx4loxf_rbMFH4Nc66hH1xLDMbaTsuGaxaN159jdff0ssit5qCym/pub"
+  },
+  "ecohack-16": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vRVYJlOKgdutUYZMeMA-gAPSCQJHMPyzlA5rRHzPQ1hLUPToXdupF4RHDPEEK-9Dw9pI91RBv7qGOwY/pub"
   },
   "we-the-people": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vRsgcV9F8jHIMszYhp6gTEj43YQ0tNNylWodCrJj6EgizoA7rVTIbbjsBbrT8a-dvpCOWennQLsiiPH/pub"
   },
   "toolkit": {
     "doc": "https://docs.google.com/document/d/e/2PACX-1vTpsSl00voQiUbQTyOr9fWjWbJeX5gFXxLA4CRtuA8RcaqMRdgP8hkVGyzIgUHZDgjymqoQi9CrtnNr/pub"
+  },
+  "ecohack-14": {
+    "doc": "https://docs.google.com/document/d/e/2PACX-1vQreH21FTjcdnm6VsSZ_t-LxhG41jmCeSAJqWiTOOJq71yOL1Z6RCRnCTl3Bxf95bz11MmF4GH1d232/pub"
   }
 }
