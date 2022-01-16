@@ -31,6 +31,7 @@ export default {
   }
   > .content {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
 
     .divider {
       width: 0.5rem;
