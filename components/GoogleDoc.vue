@@ -29,11 +29,15 @@ export default {
   > #footer { // FIXME: temp hack
     display: none;
   }
-  > #contents > div { // FIXME: temp hack removing root content el styles
-    background: none;
-    max-width: unset;
-    margin: 0;
-    padding: 0;
+  > .content {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    .divider {
+      width: 0.5rem;
+      height: 0.5rem;
+      background-color: black;
+      margin: 1rem auto;
+    }
   }
 }
 </style>
