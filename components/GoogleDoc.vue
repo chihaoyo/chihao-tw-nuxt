@@ -24,21 +24,29 @@ export default {
     overflow-x: scroll;
   }
 
-  > #banners,
-  > #header,
-  > #footer { // FIXME: temp hack
-    display: none;
-  }
-  > .content {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.5;
+  > #banners, > #header, > #footer { display: none; } // FIXME: hack
+}
+.google-doc > .content {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5;
 
-    .divider {
-      width: 0.5rem;
-      height: 0.5rem;
-      background-color: black;
-      margin: 1rem auto;
-    }
+  .divider {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: black;
+    margin: 1rem auto;
+  }
+  h2 {
+    margin: auto;
+  }
+  ul[class*="lst-kix"] { // FIXME: hack
+    > li::before { content: none; }
+    &[class*="-0"] { list-style: disc; }
+    &[class*="-0"] > li[class*="li-bullet"] { margin-left: 1.5rem; }
+    &[class*="-1"] { list-style: circle; }
+    &[class*="-1"] > li[class*="li-bullet"] { margin-left: 3.0rem; }
+    &[class*="-2"] { list-style: square; }
+    &[class*="-2"] > li[class*="li-bullet"] { margin-left: 4.5rem; }
   }
 }
 </style>
